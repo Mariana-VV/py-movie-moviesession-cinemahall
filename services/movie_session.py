@@ -48,7 +48,7 @@ def update_movie_session(session_id: int,
     if movie_id:
         session.movie_id = movie_id
     if cinema_hall_id:
-        session.cinema_hall = cinema_hall_id
+        session.cinema_hall_id = cinema_hall_id
 
     session.save()
 
